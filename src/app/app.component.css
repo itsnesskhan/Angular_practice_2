@@ -1,0 +1,75 @@
+/* navbar.component.css */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px; /* Set the width of the logo image */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 15px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    color: #ffd700; /* Change the color on hover */
+  }
+  
+  .navbar-buttons {
+    margin-left: auto; /* Push buttons to the right */
+  }
+  
+  .button {
+    background: linear-gradient(to right, #ffd700, #e5ac00); /* Gradient background */
+    color: #333;
+    padding: 8px 15px;
+    margin-right: 10px; /* Add spacing between buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:last-child {
+    margin-right: 0; /* Remove margin from the last button */
+  }
+  
+  .button:hover {
+    background: linear-gradient(to right, #e5ac00, #ffd700); /* Gradient background on hover */
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Push search bar to the right */
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    background: linear-gradient(to right, #ffd700, #e5ac00); /* Gradient background for the search button */
+    color: #333;
+    padding: 8px 15px;
+    margin-right: 10px; /* Add spacing between buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background: linear-gradient(to right, #e5ac00, #ffd700); /* Gradient background on hover */
+  }
+  

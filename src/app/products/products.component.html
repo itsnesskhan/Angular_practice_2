@@ -1,0 +1,18 @@
+<h1>Content Projection</h1>
+<div class="container">
+    <div class="row" >
+        <div class="col-md-6">
+            <product-widget [products]="products">
+                <h2 class="head" #head>upto 70% off on Electronics</h2>
+                <a href="" class="link">click on link for more</a>
+            </product-widget>
+        </div>
+
+        <div class="col-md-6">
+            <product-widget [products]="topProducts">
+               <h2 class="head">top picks for the day</h2>
+               <a href="" class="link">check more...</a>
+            </product-widget>
+        </div>
+    </div>
+</div>

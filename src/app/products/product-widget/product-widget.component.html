@@ -1,0 +1,6 @@
+
+<ng-content select=".head"></ng-content>
+<ul class="list-group" *ngFor="let pro of products">
+    <li class="list-group-item disabled">{{pro.name}}<br>{{pro.price}}</li>
+<ng-content select=".link"></ng-content>
+</ul>
